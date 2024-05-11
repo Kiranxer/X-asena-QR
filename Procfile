@@ -1,2 +1,2 @@
 run:
-    web:node index.js
+    web:node script.js
