@@ -10,10 +10,10 @@ const {
 } = require("@adiwajshing/baileys");
 
 const pino = require("pino");
-let PORT = process.env.PORT || 3030;
+let PORT = process.env.PORT || 3000;
 
 const PastebinAPI = require("pastebin-js"),
-  pastebin = new PastebinAPI("h4cO2gJEMwmgmBoteYufW6_weLvBYCqT");
+  pastebin = new PastebinAPI("vEQLCJwvwICF7Oz3HgQqYWRgpeqnG3aA");
 app.use("/", (req, res) => {
   const authfile = `./tmp/${makeid()}.json`;
   const { state } = useSingleFileAuthState(authfile, pino({ level: "silent" }));
