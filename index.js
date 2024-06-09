@@ -1,2 +1,1 @@
-run:
-    web:'node' 'script.js'
+run: node script.js
